@@ -1,0 +1,54 @@
+.border-1px (@color) {
+  position: relative;
+  &::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: @color;
+  }
+}
+
+.border-none () {
+  &::after{
+    display: none;
+  }
+}
+
+.bg-image (@url) {
+  background-image: url('@{url}@2x.png');
+  @media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+    background-image: url('@{url}@3x.png');
+  }
+}
+
+//.icon-mixin (@decreaseURL, @discountURL, @guaranteeURL, @invoiceURL, @specialURL) {
+//  .icon{
+//    display: inline-block;
+//    vertical-align: top;
+//    width: 12px;
+//    height: 12px;
+//    margin-right: 2px;
+//    background-size: 12px 12px;
+//    background-repeat: no-repeat;
+//    &.decrease{
+//      .bg-image(@decreaseURL)
+//    }
+//    &.discount{
+//      .bg-image(@discountURL)
+//    }
+//    &.guarantee{
+//      .bg-image(@guaranteeURL)
+//    }
+//    &.invoice{
+//      .bg-image(@invoiceURL)
+//    }
+//    &.special{
+//      .bg-image(@specialURL)
+//    }
+//  }
+//
+//}
