@@ -1,4 +1,4 @@
-# statis-demo
+# Vue2.0仿饿了么app学习
 
 > A Vue.js project
 
