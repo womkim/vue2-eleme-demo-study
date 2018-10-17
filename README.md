@@ -12,7 +12,7 @@ Project demonstration：[demo](https://womkim.github.io/vue2-eleme-demo-study/)
 
 demoDescription：The demo viewed is deployed on github, so the Vue-source method is removed and the json method is used instead. Since github uses HTTPS, and eleme images are obtained using http, there will be warnings in the browser.: vendor.559010f….js:6 Mixed Content: The page at '...' was loaded over HTTPS, but requested an insecure image '...'. This content should also be served over HTTPS.
 
-Regarding this study, I did some [learning records] (./record.md) related to the new version changes and the use of pug and less.
+Regarding this study, I did some [learning records](./record.md) related to the new version changes and the use of pug and less.
 
 ## Build Setup
 
