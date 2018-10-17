@@ -1,18 +1,18 @@
-# Vue2.0仿饿了么app学习
+# Vue2.0 eleme-app-study （[点我查看中文文档](README.ZH.md)）
 
 > A Vue.js project
 
-这里是学习慕课网Vue视频时，边学边做的项目，由于版本改动，这里的表现形式会与视频中的不同。
+Here is the project to learn while learning the Vue video of Mutu. Because of the version change, the expression here will be different from the video.
 
-本项目使用的是Vue2.x+pug+less+es6+webpack，其中一些方法，在学习过程中根据自己的理解表现形式会有所不同。
+The project uses Vue2.x + pug + less + es6 + webpack, some of which will behave differently depending on your understanding during the learning process.
 
 
 
-项目演示：[demo](https://womkim.github.io/vue2-eleme-demo-study/)
+Project demonstration：[demo](https://womkim.github.io/vue2-eleme-demo-study/)
 
-demo说明：查看的demo是部署在github上，所以去除了Vue-source获取数据方式，改用直接获取json方式。由于github上是使用HTTPS，而eleme图片是使用http方式获取，所以浏览器中会有警告提示: vendor.559010f….js:6 Mixed Content: The page at '...' was loaded over HTTPS, but requested an insecure image '...'. This content should also be served over HTTPS.
+demoDescription：The demo viewed is deployed on github, so the Vue-source method is removed and the json method is used instead. Since github uses HTTPS, and eleme images are obtained using http, there will be warnings in the browser.: vendor.559010f….js:6 Mixed Content: The page at '...' was loaded over HTTPS, but requested an insecure image '...'. This content should also be served over HTTPS.
 
-关于本次学习，做了一些有关新版本改动和pug、less使用相关的[学习记录](./record.md)。
+Regarding this study, I did some [learning records] (./record.md) related to the new version changes and the use of pug and less.
 
 ## Build Setup
 
